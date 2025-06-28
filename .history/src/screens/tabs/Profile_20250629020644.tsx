@@ -10,6 +10,7 @@ import { components } from "../../components";
 
 interface ProfileItemProps {
   title: string;
+  icon: IconType;
   containerStyle?: React.CSSProperties;
   navIcon?: boolean;
   onClick?: () => void;
@@ -149,7 +150,7 @@ export const Profile: React.FC = () => {
           icon={<svg.LogOutSvg />}
           containerStyle={{ marginBottom: 20 }}
           onClick={() => {
-            window.location.href = "https://sm-it.netlify.app/dashboard";
+            navigate("/sign-in");
           }}
         />
       </main>

@@ -149,7 +149,7 @@ export const Profile: React.FC = () => {
           icon={<svg.LogOutSvg />}
           containerStyle={{ marginBottom: 20 }}
           onClick={() => {
-            window.location.href = "https://sm-it.netlify.app/dashboard";
+            navigate("/sign-in");
           }}
         />
       </main>
