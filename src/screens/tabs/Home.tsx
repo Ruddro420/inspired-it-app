@@ -269,9 +269,9 @@ export const Home: React.FC = () => {
                   padding: '8px 20px',
                   height: 89,
                 }}
-                onClick={() => {
-                  navigate('/category-list', {state: {title: category.name}});
-                }}
+                // onClick={() => {
+                //   navigate('/category-list', {state: {title: category.name}});
+                // }}
               >
                 <img
                   src={category.image}
