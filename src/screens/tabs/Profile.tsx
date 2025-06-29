@@ -55,7 +55,7 @@ export const Profile: React.FC = () => {
             cursor: "pointer",
             userSelect: "none",
           }}
-          onClick={() => navigate("/profile/edit")}
+          // onClick={() => navigate("/profile/edit")}
         >
           <img
             src="https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/393205049_822400306557498_7309767441203305084_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=BL4lCaDZiKgQ7kNvwH2Rqb3&_nc_oc=AdlXbXOYILlNXYVfptKZZx855aPGpJ5vr_SvT95fWHwC67HfTDKczO1a_OVP9CABgks&_nc_zt=23&_nc_ht=scontent.fdac27-2.fna&_nc_gid=gdSLdAe8xYpjFyv2Dy1yTg&oh=00_AfMluqc4qebuSJy5YnCsCCwR7cy9D_jUmr5rL2yjLUQ2Uw&oe=6865FB41"
